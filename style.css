@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#page1 #hero {
+    min-height: 100vh;
+    
+    margin-top: 19vw;
+    padding: 0 2vw;
+}
+#page1 #hero h1{
+
+    font-family: futura;
+    line-height:14vw ;
+    font-size: 16.5vw;
+    letter-spacing: -7px;
+
+}
+.animation{
+    display: flex;
+    gap: 2vw;
+}
+#video-cont{
+    width: 100%;
+    position: relative;
+
+}
+#video-cont video{
+    width: 100%;
+   cursor: pointer;
+    margin-top: 2vw;
+    object-fit: cover;
+}
+#circle{
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: futura;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+    background-color: black;
+    
+}
